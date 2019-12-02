@@ -1,2 +1,1 @@
-# terraform-training
-Terraform training 
+terraform training repo
