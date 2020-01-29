@@ -23,6 +23,11 @@ variable "container_name" {
 }
 
 variable "external_port" {
+  type        = "map"
   description = "External port"
-  default     = "80"
+  default = {
+    test  = "8081"
+    stage = "8082"
+    live  = "80"
+  }
 }
